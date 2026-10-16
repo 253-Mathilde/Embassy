@@ -26,9 +26,64 @@ quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea c
 gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat vel illum dolore eu feugiat nulla facilisis Ut wisi enim ad minim veniam
 quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet consetetur sadipscing elitr sed</div>
 
-  <div class="gallery"> images of the location/Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua At vero eos et accusam et justo duo dolores et ea rebum Stet clita kasd
-gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat vel illum dolore eu feugiat nulla facilisis Ut wisi enim ad minim veniam
-quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat Lorem ipsum dolor sit amet consetetur sadipscing elitr sed</div>
+<div class="gallery"> 
+  <div class="container">
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <img src="img_woods_wide.jpg" style="width:100%" alt="Woods">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="img_5terre_wide.jpg" style="width:100%" alt="Cinque Terre">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" style="width:100%" alt="Mountains">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="img_lights_wide.jpg" style="width:100%" alt="Northern Lights">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="img_nature_wide.jpg" style="width:100%" alt="Nature">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="img_snow_wide.jpg" style="width:100%" alt="Snow">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="img_woods.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img_5terre.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img_mountains.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img_lights.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img_nature.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy mountains">
+      </div>
+    </div>
+  </div>
+</div>
 
   <div class="wishlist"> a wishlist widget/Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua At vero eos et accusam et justo duo dolores et ea rebum Stet clita kasd
 gubergren no sea takimata sanctus est Lorem ipsum dolor sit amet Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat vel illum dolore eu feugiat nulla facilisis Ut wisi enim ad minim veniam
@@ -53,7 +108,7 @@ quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea c
 </div>
 
 <button id="gamble" class="button" style="position:absolute; top:60%;  padding: 10px 22px; border-radius: 6px; border: none; color: #fff; cursor: pointer; background-color: #40092C;transition: all 0.2s ease; font-family: creamy; font-size: 1em;">Get a destination</button>
-<h3 id="destination" style="position:absolute; top:30%; font-family: SakeMoru; font-size: 0.8em; color:white;" > Name of the destination</h3>
+<h3 id="destination" style="position:absolute; top:30%; font-family: SakeMoru; font-size: 0.8em; color:white;  " > Name of the destination</h3>
 <img src="https://i.imgur.com/SKQt7Wz.gif" style="position:absolute; top:37%; left:49.5%;" >
 
 
