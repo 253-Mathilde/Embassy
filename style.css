@@ -1,13 +1,25 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: rgb(240, 128, 128);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  color:white;
+  color:#40092C;
+}
+
+/* White Paper Airplane - https://www.cursors-4u.com/cursor/white-paper-airplane */
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/paper-airplane-19477b19-32.webp') 32 32, auto !important;
+}
+/* End www.Cursors-4U.com Code */
+
+
+::selection {
+  background-color: #ff6b6b; 
+  color: #ffffff;           
 }
 
 .bubble {
@@ -15,44 +27,37 @@ body {
   width: 320px;
   height: 320px;
   border-radius: 50%;
-  
-
- 
   background: 
-
-    radial-gradient(circle at 50% 50%, rgba(0,0,0,1) 35%, rgba(0,0,0,0) 70%),
-    
-   
+    radial-gradient(circle at 50% 50%, rgba(0,0,0,0.15) 35%, rgba(0,0,0,0) 70%),
     linear-gradient(0deg, 
-      rgba(255, 255, 255, 0.4) 0%,
-      rgba(0, 255, 255, 0.25) 8%,
-      rgba(255, 0, 128, 0.2) 15%,
-      rgba(255, 255, 255, 0) 35%, 
-      rgba(255, 255, 255, 0) 65%, 
-      rgba(255, 230, 0, 0.2) 82%,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(0, 255, 255, 0.3) 10%,
+      rgba(255, 0, 128, 0.15) 25%,
+      rgba(240, 128, 128, 0) 40%, 
+      rgba(240, 128, 128, 0) 60%, 
+      rgba(255, 255, 255, 0.1) 80%,
       rgba(0, 255, 150, 0.25) 90%,
-      rgba(255, 255, 255, 0.5) 100%
+      rgba(255, 255, 255, 0.3) 100
     ),
     
-
     linear-gradient(180deg,
-      rgba(255,255,255,0.3) 2%,
-      rgba(255, 0, 255, 0.15) 12%,
-      rgba(0, 0, 255, 0.15) 22%,
-      rgba(0,0,0,0) 40%,
-      rgba(0,0,0,0) 60%,
-      rgba(0, 255, 255, 0.15) 85%,
-      rgba(255, 255, 255, 0.3) 98%
+      rgba(255, 255, 255, 0.4) 2%,
+      rgba(255, 0, 255, 0.2) 15%,
+      rgba(0, 0, 255, 0.15) 30%,
+      transparent 45%,
+      transparent 55%,
+      rgba(0, 255, 255, 0.25) 85%,
+      rgba(255, 255, 255, 0.3) 98
     );
 
   background-blend-mode: screen;
   box-shadow: 
-    inset 0 40px 50px rgba(255, 255, 255, 0.6),    
-    inset 0 -30px 45px rgba(255, 255, 255, 0.35),   
-    inset 15px 0 25px rgba(255, 0, 150, 0.2),      
-    inset -15px 0 25px rgba(0, 200, 255, 0.25),    
-    inset 0 0 8px rgba(255, 255, 255, 0.9),       
-    0 1px 3px rgba(255, 255, 255, 0.4);             
+    inset 0 40px 50px rgba(255, 255, 255, 0.4),    
+    inset 0 -30px 45px rgba(255, 255, 255, 0.3),   
+    inset 15px 0 25px rgba(255, 0, 150, 0.15),      
+    inset -15px 0 25px rgba(0, 200, 255, 0.3),    
+    inset 0 0 12px rgba(255, 255, 255, 0.9),       
+    0 2px 5px rgba(0, 0, 0, 0.1);             
 
   animation: float 6s ease-in-out infinite alternate;
 }
@@ -67,17 +72,14 @@ body {
   background: radial-gradient(
     ellipse at center,
     rgba(255, 255, 255, 1) 0%,       
-    rgba(255, 255, 255, 0.8) 25%,    
-    rgba(255, 255, 255, 0.2) 60%,     
-    rgba(255, 255, 255, 0) 100%
+    rgba(255, 255, 255, 0.4) 35%,    
+    rgba(255, 255, 255, 0.1) 70%,     
+    transparent 100%
   );
   transform: rotate(-28deg);
-
   mix-blend-mode: overlay; 
   filter: drop-shadow(0 0 2px rgba(255,255,255,0.8));
 }
-
-
 .bubble::after {
   content: "";
   position: absolute;
@@ -86,11 +88,9 @@ body {
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: radial-gradient(circle, #fff 20%, rgba(255,255,255,0.4) 60%, transparent 100%);
+  background: radial-gradient(circle, #fff 30%, rgba(255,255,255,0.5) 70%, transparent 100%);
   filter: blur(0.2px);
 }
-
-
 .glare::before {
   content: "";
   position: absolute;
@@ -101,13 +101,13 @@ body {
   border-radius: 50%;
   background: radial-gradient(
     ellipse at center,
-    rgba(255, 255, 255, 0.6) 0%,
-    rgba(255, 255, 255, 0.1) 50%,
-    rgba(255, 255, 255, 0) 100%
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(255, 255, 255, 0.2) 50%,
+    transparent 80%
   );
-  transform: rotate(-35deg);
+  transform: rotate(30deg);
+  mix-blend-mode: overlay;
 }
-
 .glare::after {
   content: "";
   position: absolute;
@@ -134,22 +134,23 @@ body {
 }
 
 
-
-
-.container {  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 51px 51px;
+.container {  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  gap: 20px 51px; 
+  
   grid-auto-flow: row;
   grid-template-areas:
-    "weather . ."
-    "info . ."
-    ". . ."
-    "gallery wishlist .";
-    margin-left:0;
-    position:absolute;
-    left:2%;
-    top:8%;
+    "weather . . facts"
+    "info . . opinions"
+    ". . . ."
+    "gallery wishlist wishlist random";
+  margin-left: 0;
+  position: absolute;
+  left: 2%;
+  right:2%;
+  top: 8%;
 }
 
 .weather { grid-area: weather; }
@@ -158,4 +159,123 @@ body {
 
 .gallery { grid-area: gallery; }
 
-.wishlist { grid-area: wishlist; }
+.wishlist { grid-area: wishlist;   margin-top: 25%;  }
+
+.facts { grid-area: facts; }
+
+.opinions { grid-area: opinions; }
+
+.random { grid-area: random; }
+
+
+
+
+.button:active {
+  transform: scale(0.96);
+}
+
+.button:before,
+.button:after {
+  position: absolute;
+  content: "";
+  width: 150%;
+  left: 50%;
+  height: 100%;
+  transform: translateX(-50%);
+  z-index: -1000;
+  background-repeat: no-repeat;
+}
+
+.button:hover:before {
+  top: -70%;
+  background-image: radial-gradient(circle, white 20%, transparent 20%),
+    radial-gradient(circle, transparent 20%, white 20%, transparent 30%),
+    radial-gradient(circle, white 20%, transparent 20%),
+    radial-gradient(circle, white 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, white 15%, transparent 20%),
+    radial-gradient(circle, white 20%, transparent 20%),
+    radial-gradient(circle, white 20%, transparent 20%),
+    radial-gradient(circle, white 20%, transparent 20%),
+    radial-gradient(circle, white 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
+    10% 10%, 18% 18%;
+  background-position: 50% 120%;
+  animation: greentopBubbles 0.6s ease;
+}
+
+@keyframes greentopBubbles {
+  0% {
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
+      40% 90%, 55% 90%, 70% 90%;
+  }
+
+  50% {
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
+      50% 50%, 65% 20%, 90% 30%;
+  }
+
+  100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
+      50% 40%, 65% 10%, 90% 20%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+.button:hover::after {
+  bottom: -70%;
+  background-image: radial-gradient(circle, white 20%, transparent 20%),
+    radial-gradient(circle, white 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, white 15%, transparent 20%),
+    radial-gradient(circle, white 20%, transparent 20%),
+    radial-gradient(circle, white 20%, transparent 20%),
+    radial-gradient(circle, white 20%, transparent 20%),
+    radial-gradient(circle, white 20%, transparent 20%);
+  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
+  background-position: 50% 0%;
+  animation: greenbottomBubbles 0.6s ease;
+}
+
+@keyframes greenbottomBubbles {
+  0% {
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,
+      70% -10%, 70% 0%;
+  }
+
+  50% {
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
+      105% 0%;
+  }
+
+  100% {
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
+      110% 10%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+
+
+
+
+
+
+@font-face {
+font-family:'yipes';
+src: url(https://dl.dropbox.com/s/qrdm3wived8sm66/Yipes.ttf);
+}
+
+
+@font-face {
+src: url(https://dl.dropbox.com/s/ktlx5w7t8gk42nb/SakeMoru-Regular.ttf);
+font-family: SakeMoru;
+}
+
+@font-face {
+src: url(https://dl.dropbox.com/s/hfc6fjqu9kkxbt5/Sweet%20Creamy.ttf);
+font-family: creamy;
+}
+
+@font-face {
+font-family:'bigilla';
+src: url(https://dl.dropbox.com/s/mvlqsrjn08ko7lh/Bigilla-Bold.otf); 
+}
