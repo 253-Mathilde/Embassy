@@ -6,8 +6,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
   color:#40092C;
+  font-family: candie;
+font-size: 1em;
 }
 
 /* White Paper Airplane - https://www.cursors-4u.com/cursor/white-paper-airplane */
@@ -147,35 +148,30 @@ body {
 
 .container {  
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto auto auto 1fr; 
   gap: 20px 51px; 
-  
   grid-auto-flow: row;
   grid-template-areas:
-    "weather . . facts"
-    "info . . opinions"
-    ". . . ."
+    "weather .        .        facts"
+    "info    .        .        opinions"
+    ".       .        .        random"
+    "gallery .        .        random"
     "gallery wishlist wishlist random";
-     margin: 8% auto 5%; 
   position: absolute;
-   width: 96%;
-
+  top: 5%;       
+  bottom: 4%;
+  left: 2%;      
+  right: 2%; 
 }
+.weather { grid-area: weather; background-color: lightpink; border-radius:16px; padding:2%; }
+.info { grid-area: info; background-color: lightpink; border-radius:16px; padding:2%; }
+.gallery { grid-area: gallery; background-color: lightpink;  border-radius:16px; padding:2%; height: fit-content;align-self: end;}
+.wishlist { grid-area: wishlist; background-color: lightpink; border-radius:16px; padding:2%; height: fit-content;  align-self: end; }
+.facts { grid-area: facts; background-color: lightpink; border-radius:16px; padding:2%; height:fit-content; }
+.opinions { grid-area: opinions; background-color: lightpink; border-radius:16px; padding:2%; }
+.random { grid-area: random;background-color: lightpink; border-radius: 16px; padding: 2%; align-self: stretch; height: auto;}
 
-.weather { grid-area: weather; }
-
-.info { grid-area: info; }
-
-.gallery { grid-area: gallery; }
-
-.wishlist { grid-area: wishlist;   margin-top: 25%;  }
-
-.facts { grid-area: facts; }
-
-.opinions { grid-area: opinions; }
-
-.random { grid-area: random; }
 
 
 
@@ -264,7 +260,10 @@ body {
 }
 
 
-
+@font-face {
+src: url(https://dl.dropbox.com/s/g3x81o9erdbepda/Candy%20Cake.ttf);
+font-family: candie;
+}
 
 
 
@@ -321,86 +320,3 @@ src: url(https://dl.dropbox.com/s/mvlqsrjn08ko7lh/Bigilla-Bold.otf);
 
 
 
-* {
-  box-sizing: border-box;
-}
-
-.container {
-  position: relative;
-}
-
-
-.mySlides {
-  display: none;
-}
-
-
-.cursor {
-  cursor: pointer;
-}
-
-
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
