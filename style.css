@@ -279,3 +279,13 @@ font-family: creamy;
 font-family:'bigilla';
 src: url(https://dl.dropbox.com/s/mvlqsrjn08ko7lh/Bigilla-Bold.otf); 
 }
+
+
+@keyframes move-horizontal-right {
+  from {
+    transform: translateX(-100vw) scaleX(-1);
+  }
+  to {
+    transform: translateX(100vw) scaleX(-1);
+  }
+}
