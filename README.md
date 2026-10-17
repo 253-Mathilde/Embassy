@@ -8,7 +8,7 @@ https://sadthemes.tumblr.com/smolpxl
 https://uiverse.io/zjssun/curly-seahorse-76
 https://ishimori.crd.co/#fonts
 https://scripted.neocities.org/images
-
+https://weatherwidget.org/
 
 
 New York images :
