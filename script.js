@@ -3,6 +3,32 @@ function step() {
 message = message.substr(1) + message.substr(0,1);
 document.title = message.substr(0,15);
 } 
+document.getElementById('add-button').addEventListener('click', function() {
+    const bookInput = document.getElementById('book-input');
+    const bookTitle = bookInput.value.trim();
+    if (bookTitle !== "") {
+        const bookList = document.getElementById('book-list');
+        const li = document.createElement('li');
+        li.className = 'book-item';
+        const span = document.createElement('span');
+        span.textContent = bookTitle;
+        const removeButton = document.createElement('button');
+        removeButton.textContent = 'Remove';
+        removeButton.addEventListener('click', function() {
+            li.classList.add('fade-out');
+            li.addEventListener('animationend', function() {
+                bookList.removeChild(li);
+            });
+        });
+        li.appendChild(span);
+        li.appendChild(removeButton);
+        bookList.appendChild(li);
+        bookInput.value = '';
+        bookInput.focus();
+    }
+});
+
+
 
 
 const weather = document.getElementById("weather");
