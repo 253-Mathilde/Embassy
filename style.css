@@ -328,3 +328,28 @@ src: url(https://dl.dropbox.com/s/mvlqsrjn08ko7lh/Bigilla-Bold.otf);
   display: block !important;
   height: 250px !important;
 }
+
+.book-item.fade-out {
+  animation: fadeOutEffect 0.3s ease forwards;
+}
+@keyframes fadeOutEffect {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+}
+
+
+ #book-list::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+  .facts::-webkit-scrollbar {
+    display: none;
+  }
