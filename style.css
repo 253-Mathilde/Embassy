@@ -169,7 +169,7 @@ font-size: 1em;
 .gallery { grid-area: gallery; background-color: lightpink;  border-radius:16px; padding:2%; height: fit-content;align-self: end;}
 .wishlist { grid-area: wishlist; background-color: lightpink; border-radius:16px; padding:2%; height: fit-content;  align-self: end; }
 .facts { grid-area: facts; background-color: lightpink; border-radius:16px; padding:2%; height:fit-content; }
-.opinions { grid-area: opinions; background-color: lightpink; border-radius:16px; padding:2%; }
+.opinions { grid-area: opinions; background-color: lightpink; border-radius:16px; padding:2%;padding:3%; }
 .random { grid-area: random;background-color: lightpink; border-radius: 16px; padding: 2%; align-self: stretch; height: auto;}
 
 
@@ -316,7 +316,15 @@ src: url(https://dl.dropbox.com/s/mvlqsrjn08ko7lh/Bigilla-Bold.otf);
   
     
 
-
-
-
-
+.weather iframe {
+  height: 100% !important;
+  width: 100% !important;
+}
+.weather {
+  border-radius: 16px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  overflow: hidden !important;
+  display: block !important;
+  height: 250px !important;
+}
