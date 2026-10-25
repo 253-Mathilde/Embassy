@@ -7,8 +7,9 @@ body {
   justify-content: center;
   align-items: center;
   color:#40092C;
-  font-family: candie;
+  font-family: loving, candie;
 font-size: 1em;
+overflow:hidden;
 }
 
 /* White Paper Airplane - https://www.cursors-4u.com/cursor/white-paper-airplane */
@@ -269,8 +270,9 @@ font-family: candie;
 
 
 @font-face {
-font-family:'yipes';
 src: url(https://dl.dropbox.com/s/qrdm3wived8sm66/Yipes.ttf);
+font-family:'yipes';
+
 }
 
 
@@ -287,6 +289,11 @@ font-family: creamy;
 @font-face {
 font-family:'bigilla';
 src: url(https://dl.dropbox.com/s/mvlqsrjn08ko7lh/Bigilla-Bold.otf); 
+}
+@font-face {
+src: url(https://dl.dropbox.com/s/6rxfe5e7gp9cyzv/Self%20Loving%20TTF.ttf);
+font-family: loving;
+unicode-range: U+0030-0039;
 }
 
 @keyframes move-horizontal-right {
