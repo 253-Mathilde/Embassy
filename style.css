@@ -363,4 +363,14 @@ unicode-range: U+0030-0039;
 
 
 
- 
+ #add-button{
+  background-image:url("add button.png");
+  width:25px;
+  height:25px;
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:center;
+  border:none;
+  background-color:transparent;
+  margin:0;
+ }

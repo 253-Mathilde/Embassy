@@ -22,8 +22,16 @@ function addBookToDOM(bookTitle) {
     const span = document.createElement('span');
     span.textContent = bookTitle;
     const removeButton = document.createElement('button');
-    removeButton.textContent = 'Remove';
-    removeButton.addEventListener('click', function() {
+   removeButton.textContent = '';
+   removeButton.style.backgroundImage = 'url("delete button.png")';
+   removeButton.style.width = '20px';
+   removeButton.style.height = '20px';
+   removeButton.style.backgroundSize = 'contain';
+   removeButton.style.backgroundRepeat = 'no-repeat';
+   removeButton.style.backgroundPosition = 'center';
+   removeButton.style.border = 'none';
+   removeButton.style.backgroundColor = 'transparent';
+  removeButton.addEventListener('click', function() {
         li.classList.add('fade-out');
         li.addEventListener('animationend', function() {
             removeBookFromLocalStorage(bookTitle);
@@ -84,11 +92,11 @@ document.getElementById('gamble').addEventListener('click', function() {
   } 
   if (gamblenumber === 2) {
     destinationname.textContent = "Tokyo, Japan";
-    let weather = document.getElementById('ww_4351d8b7c94a5');
-    weather.remove();
-    const weathermomie = document.getElementById('weather');
+    const weathermomie = document.querySelector('.weather');
+    if (weathermomie) {
+    weathermomie.innerHTML = '';
     const newweather = document.createElement('div');
-    newweather.id = 'ww_349f9625b75a6';
+    newweather.id = 'ww_f76b73bb73bb5';
     newweather.setAttribute('v', '1.3');
     newweather.setAttribute('loc', 'id');
     newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl926"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
@@ -96,8 +104,8 @@ document.getElementById('gamble').addEventListener('click', function() {
     weathermomie.appendChild(newweather);
     const weatherScript = document.createElement('script');
     weatherScript.async = true;
-    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_349f9625b75a6';
-     weathermomie.appendChild(weatherScript);
+    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_f76b73bb73bb5';
+    weathermomie.appendChild(weatherScript);}
     let Iframe = document.getElementById('wiki');
     let meinIframe = document.getElementById('map');
     meinIframe.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1663022.0029359974!2d138.4503254903807!3d35.50205646723452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2sPr%C3%A4fektur%20Tokio%2C%20Japan!5e0!3m2!1sde!2sde!4v1792423911914!5m2!1sde!2sde';
@@ -110,6 +118,20 @@ document.getElementById('gamble').addEventListener('click', function() {
   } 
   if (gamblenumber === 3) {
     destinationname.textContent = "Paris, France";
+    const weathermomie = document.querySelector('.weather');
+     if (weathermomie) {
+    weathermomie.innerHTML = '';
+    const newweather = document.createElement('div');
+    newweather.id = 'ww_dda7bca150c4a';
+    newweather.setAttribute('v', '1.3');
+    newweather.setAttribute('loc', 'id');
+    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl4529"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
+    newweather.innerHTML = 'More forecasts: <a href="https://meteolongue.com/paris_meteo_25_jours/" id="ww_dda7bca150c4a_u" target="_blank">Météo paris 25 jours</a>';
+    weathermomie.appendChild(newweather);
+    const weatherScript = document.createElement('script');
+    weatherScript.async = true;
+    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_dda7bca150c4a';
+    weathermomie.appendChild(weatherScript);}
     let Iframe = document.getElementById('wiki');
     let meinIframe = document.getElementById('map');
     Iframe.src = 'https://de.wikipedia.org/wiki/Paris';
@@ -122,6 +144,20 @@ document.getElementById('gamble').addEventListener('click', function() {
   } 
   if (gamblenumber === 4) {
     destinationname.textContent = "Cape Town, South Africa";
+    const weathermomie = document.querySelector('.weather');
+    if (weathermomie) {
+    weathermomie.innerHTML = '';
+    const newweather = document.createElement('div');
+    newweather.id = 'ww_dda7bca150c4a';
+    newweather.setAttribute('v', '1.3');
+    newweather.setAttribute('loc', 'id');
+    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl3740"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
+    newweather.innerHTML = '<a href="https://weatherwidget.org/" id="ww_dda7bca150c4a_u" target="_blank">Weather widget html</a>';
+    weathermomie.appendChild(newweather);
+    const weatherScript = document.createElement('script');
+    weatherScript.async = true;
+    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_dda7bca150c4a';
+    weathermomie.appendChild(weatherScript);}
     let Iframe = document.getElementById('wiki');
      let meinIframe = document.getElementById('map');
      Iframe.src = 'https://de.wikipedia.org/wiki/Kapstadt';
@@ -134,6 +170,20 @@ document.getElementById('gamble').addEventListener('click', function() {
   } 
   if (gamblenumber === 5) {
     destinationname.textContent = "Rome, Italy";
+    const weathermomie = document.querySelector('.weather');
+    if (weathermomie) {
+    weathermomie.innerHTML = '';
+    const newweather = document.createElement('div');
+    newweather.id = 'ww_dda7bca150c4a';
+    newweather.setAttribute('v', '1.3');
+    newweather.setAttribute('loc', 'id');
+    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl2405"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
+    newweather.innerHTML = 'More forecasts: <a href="https://oneweather.org/it/rome/10_days/" id="ww_dda7bca150c4a_u" target="_blank">Previsioni meteo roma 10 giorni</a>';
+    weathermomie.appendChild(newweather);
+    const weatherScript = document.createElement('script');
+    weatherScript.async = true;
+    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_dda7bca150c4a';
+    weathermomie.appendChild(weatherScript);}
      let Iframe = document.getElementById('wiki');
      let meinIframe = document.getElementById('map');
      Iframe.src = 'https://de.wikipedia.org/wiki/Rom' ;
@@ -147,6 +197,20 @@ document.getElementById('gamble').addEventListener('click', function() {
   } 
   if (gamblenumber === 6) {
     destinationname.textContent = "Rio de Janeiro, Brazil";
+    const weathermomie = document.querySelector('.weather');
+    if (weathermomie) {
+    weathermomie.innerHTML = '';
+    const newweather = document.createElement('div');
+    newweather.id = 'ww_dda7bca150c4a';
+    newweather.setAttribute('v', '1.3');
+    newweather.setAttribute('loc', 'id');
+    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl4478"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
+    newweather.innerHTML = 'More forecasts: <a href="https://tempolongo.com/rio_de_janeiro_tempo_25_dias/" id="ww_dda7bca150c4a_u" target="_blank">30 day weather forecast Rio de Janeiro</a>';
+    weathermomie.appendChild(newweather);
+    const weatherScript = document.createElement('script');
+    weatherScript.async = true;
+    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_dda7bca150c4a';
+    weathermomie.appendChild(weatherScript);}
      let Iframe = document.getElementById('wiki');
      let meinIframe = document.getElementById('map');
      Iframe.src = 'https://de.wikipedia.org/wiki/Rio_de_Janeiro' ;
@@ -160,6 +224,20 @@ document.getElementById('gamble').addEventListener('click', function() {
   } 
   if (gamblenumber === 7) {
     destinationname.textContent = "London, UK";
+    const weathermomie = document.querySelector('.weather');
+    if (weathermomie) {
+    weathermomie.innerHTML = '';
+    const newweather = document.createElement('div');
+    newweather.id = 'ww_dda7bca150c4a';
+    newweather.setAttribute('v', '1.3');
+    newweather.setAttribute('loc', 'id');
+    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl4419"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
+    newweather.innerHTML = 'More forecasts: <a href="https://oneweather.org/london/21_days/" id="ww_dda7bca150c4a_u" target="_blank">London 21 day forecast</a>';
+    weathermomie.appendChild(newweather);
+    const weatherScript = document.createElement('script');
+    weatherScript.async = true;
+    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_dda7bca150c4a';
+    weathermomie.appendChild(weatherScript);}
      let Iframe = document.getElementById('wiki');
      let meinIframe = document.getElementById('map');
      Iframe.src = 'https://de.wikipedia.org/wiki/London' ;
@@ -173,6 +251,20 @@ document.getElementById('gamble').addEventListener('click', function() {
   } 
   if (gamblenumber === 8) {
     destinationname.textContent = "Singapore";
+    const weathermomie = document.querySelector('.weather');
+    if (weathermomie) {
+    weathermomie.innerHTML = '';
+    const newweather = document.createElement('div');
+    newweather.id = 'ww_dda7bca150c4a';
+    newweather.setAttribute('v', '1.3');
+    newweather.setAttribute('loc', 'id');
+    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl2912"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
+    newweather.innerHTML = 'More forecasts: <a href="https://oneweather.org/orlando/30_days/" id="ww_dda7bca150c4a_u" target="_blank">Orlando weather 30-day forecast</a>';
+    weathermomie.appendChild(newweather);
+    const weatherScript = document.createElement('script');
+    weatherScript.async = true;
+    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_dda7bca150c4a';
+    weathermomie.appendChild(weatherScript);}
      let Iframe = document.getElementById('wiki');
      let meinIframe = document.getElementById('map');
      Iframe.src = 'https://de.wikipedia.org/wiki/Singapur';
@@ -186,6 +278,20 @@ document.getElementById('gamble').addEventListener('click', function() {
   } 
   if (gamblenumber === 9) {
     destinationname.textContent = "Barcelona, Spain";
+    const weathermomie = document.querySelector('.weather');
+    if (weathermomie) {
+    weathermomie.innerHTML = '';
+    const newweather = document.createElement('div');
+    newweather.id = 'ww_dda7bca150c4a';
+    newweather.setAttribute('v', '1.3');
+    newweather.setAttribute('loc', 'id');
+    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl6603"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
+    newweather.innerHTML = 'More forecasts: <a href="https://tiempolargo.com/madrid_tiempo_25_dias/" id="ww_dda7bca150c4a_u" target="_blank">El tiempo para 25 días</a>';
+    weathermomie.appendChild(newweather);
+    const weatherScript = document.createElement('script');
+    weatherScript.async = true;
+    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_dda7bca150c4a';
+    weathermomie.appendChild(weatherScript);}
      let Iframe = document.getElementById('wiki');
      let meinIframe = document.getElementById('map');
      Iframe.src = 'https://de.wikipedia.org/wiki/Barcelona' ;
@@ -199,6 +305,20 @@ document.getElementById('gamble').addEventListener('click', function() {
   } 
   if (gamblenumber === 10) {
     destinationname.textContent = "Sydney, Australia";
+    const weathermomie = document.querySelector('.weather');
+    if (weathermomie) {
+    weathermomie.innerHTML = '';
+    const newweather = document.createElement('div');
+    newweather.id = 'ww_dda7bca150c4a';
+    newweather.setAttribute('v', '1.3');
+    newweather.setAttribute('loc', 'id');
+    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl2859"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
+    newweather.innerHTML = 'More forecasts: <a href="https://oneweather.org/sydney/30_days/" id="ww_dda7bca150c4a_u" target="_blank">Weather 30 days Sydney</a>';
+    weathermomie.appendChild(newweather);
+    const weatherScript = document.createElement('script');
+    weatherScript.async = true;
+    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_dda7bca150c4a';
+    weathermomie.appendChild(weatherScript);}
      let Iframe = document.getElementById('wiki');
      let meinIframe = document.getElementById('map');
      Iframe.src = 'https://de.wikipedia.org/wiki/Sydney' ;
@@ -212,6 +332,20 @@ document.getElementById('gamble').addEventListener('click', function() {
   } 
   if (gamblenumber === 11) {
     destinationname.textContent = "Istanbul, Turkey";
+    const weathermomie = document.querySelector('.weather');
+    if (weathermomie) {
+    weathermomie.innerHTML = '';
+    const newweather = document.createElement('div');
+    newweather.id = 'ww_dda7bca150c4a';
+    newweather.setAttribute('v', '1.3');
+    newweather.setAttribute('loc', 'id');
+    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl3197"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
+    newweather.innerHTML = 'More forecasts: <a href="https://oneweather.org/tr/ankara/15_days/" id="ww_dda7bca150c4a_u" target="_blank">Ankara 15 günlük hava durumu</a>';
+    weathermomie.appendChild(newweather);
+    const weatherScript = document.createElement('script');
+    weatherScript.async = true;
+    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_dda7bca150c4a';
+    weathermomie.appendChild(weatherScript);}
      let Iframe = document.getElementById('wiki');
      let meinIframe = document.getElementById('map');
      Iframe.src = 'https://de.wikipedia.org/wiki/Istanbul' ;
@@ -225,6 +359,20 @@ document.getElementById('gamble').addEventListener('click', function() {
   } 
   if (gamblenumber === 12) {
     destinationname.textContent = "Bangkok, Thailand";
+    const weathermomie = document.querySelector('.weather');
+    if (weathermomie) {
+    weathermomie.innerHTML = '';
+    const newweather = document.createElement('div');
+    newweather.id = 'ww_dda7bca150c4a';
+    newweather.setAttribute('v', '1.3');
+    newweather.setAttribute('loc', 'id');
+    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl1812"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
+    newweather.innerHTML = 'More forecasts: <a href="https://weatherwidget.org/" id="ww_dda7bca150c4a_u" target="_blank">Weather widget</a>';
+    weathermomie.appendChild(newweather);
+    const weatherScript = document.createElement('script');
+    weatherScript.async = true;
+    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_dda7bca150c4a';
+    weathermomie.appendChild(weatherScript);}
      let Iframe = document.getElementById('wiki');
      let meinIframe = document.getElementById('map');
      Iframe.src = 'https://de.wikipedia.org/wiki/Bangkok' ;
