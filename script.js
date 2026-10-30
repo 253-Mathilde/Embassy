@@ -88,7 +88,6 @@ document.getElementById('gamble').addEventListener('click', function() {
 
   if (gamblenumber === 1) {
     destinationname.textContent = "New York City, USA";
-
   } 
   if (gamblenumber === 2) {
     destinationname.textContent = "Tokyo, Japan";
@@ -106,6 +105,8 @@ document.getElementById('gamble').addEventListener('click', function() {
     weatherScript.async = true;
     weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_f76b73bb73bb5';
     weathermomie.appendChild(weatherScript);}
+    let Gallery = document.getElementById('images');
+    Gallery.src = 'https://emb.fouita.com/widget/0x5734b0/ftcgx3o5y';
     let Iframe = document.getElementById('wiki');
     let meinIframe = document.getElementById('map');
     meinIframe.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1663022.0029359974!2d138.4503254903807!3d35.50205646723452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2sPr%C3%A4fektur%20Tokio%2C%20Japan!5e0!3m2!1sde!2sde!4v1792423911914!5m2!1sde!2sde';
