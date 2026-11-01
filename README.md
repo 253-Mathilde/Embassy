@@ -94,6 +94,8 @@ Image by <a href="https://pixabay.com/users/marcinzlegnicy-6586394/?utm_source=l
 
 
 Cape Town images:
+
+
 Image by <a href="https://pixabay.com/users/jeanvdmeulen-919322/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3541607">jeanvdmeulen</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3541607">Pixabay</a>
 
 
@@ -111,4 +113,21 @@ Image by <a href="https://pixabay.com/users/falco-81448/?utm_source=link-attribu
 
 Image by <a href="https://pixabay.com/users/wikiimages-1897/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=67669">WikiImages</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=67669">Pixabay</a>
 
+
+
+Rome images:
+
+Image by <a href="https://pixabay.com/users/martinophuc-13713779/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9505450">MARTINOPHUC</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9505450">Pixabay</a>
+
+
+Image by <a href="https://pixabay.com/users/pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1834787">Pexels</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1834787">Pixabay</a>
+
+
+Image by <a href="https://pixabay.com/users/indirex-33908187/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9045346">Indirex</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9045346">Pixabay</a>
+
+
+Image by <a href="https://pixabay.com/users/jansimons-20088882/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5980728">JanSimons</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5980728">Pixabay</a>
+
+
+Image by <a href="https://pixabay.com/users/tasos_lekkas-4803779/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3638146">Tasos_Lekkas</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3638146">Pixabay</a>
 
