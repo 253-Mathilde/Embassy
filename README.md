@@ -88,3 +88,27 @@ Image by <a href="https://pixabay.com/users/hikersbay-95996/?utm_source=link-att
 
 Image by <a href="https://pixabay.com/users/marcinzlegnicy-6586394/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2822265">marcinzlegnicy</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2822265">Pixabay</a>
 
+
+
+
+
+
+Cape Town images:
+Image by <a href="https://pixabay.com/users/jeanvdmeulen-919322/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3541607">jeanvdmeulen</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3541607">Pixabay</a>
+
+
+Image by <a href="https://pixabay.com/users/jeanvdmeulen-919322/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7059908">jeanvdmeulen</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7059908">Pixabay</a>
+
+
+Image by <a href="https://pixabay.com/users/penkunstenaar-43257675/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8683878">Penkunstenaar</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8683878">Pixabay</a>
+
+
+Image by <a href="https://pixabay.com/users/jeanvdmeulen-919322/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7062437">jeanvdmeulen</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7062437">Pixabay</a>
+
+
+Image by <a href="https://pixabay.com/users/falco-81448/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=997540">falco</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=997540">Pixabay</a>
+
+
+Image by <a href="https://pixabay.com/users/wikiimages-1897/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=67669">WikiImages</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=67669">Pixabay</a>
+
+
