@@ -206,8 +206,10 @@ document.getElementById('gamble').addEventListener('click', function() {
     weathermomie.appendChild(newweather);
     const weatherScript = document.createElement('script');
     weatherScript.async = true;
-    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_dda7bca150c4a';
+    weatherScript.src = '';
     weathermomie.appendChild(weatherScript);}
+    let Gallery = document.getElementById('images');
+    Gallery.src = 'https://emb.fouita.com/widget/0x574cc3/ftfhv73yo';
      let Iframe = document.getElementById('wiki');
      let meinIframe = document.getElementById('map');
      Iframe.src = 'https://de.wikipedia.org/wiki/Rom' ;
@@ -237,7 +239,7 @@ document.getElementById('gamble').addEventListener('click', function() {
     weathermomie.appendChild(weatherScript);}
      let Iframe = document.getElementById('wiki');
      let meinIframe = document.getElementById('map');
-      let Gallery = document.getElementById('images');
+     let Gallery = document.getElementById('images');
     Gallery.src = 'https://emb.fouita.com/widget/0x574cc3/ftfhv73yo';
      Iframe.src = 'https://de.wikipedia.org/wiki/Rio_de_Janeiro' ;
     meinIframe.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470398.54325392685!2d-43.77565259879454!3d-22.913790615416065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bde559108a05b%3A0x50dc426c672fd24e!2sRio%20de%20Janeiro%2C%20Brasilien!5e0!3m2!1sde!2sde!4v1792425543800!5m2!1sde!2sde';
