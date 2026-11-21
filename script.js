@@ -90,15 +90,15 @@ document.getElementById('gamble').addEventListener('click', function() {
     if (weathermomie) {
     weathermomie.innerHTML = '';
     const newweather = document.createElement('div');
-    newweather.id = 'ww_dda7bca150c4a';
+    newweather.id = 'ww_4351d8b7c94a5';
     newweather.setAttribute('v', '1.3');
     newweather.setAttribute('loc', 'id');
     newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl712"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
-    newweather.innerHTML = 'More forecasts: <a href="https://oneweather.org/new_york_city/30_days/" id="ww_dda7bca150c4a_u" target="_blank">New York weather forecast 30 days</a>';
+    newweather.innerHTML = 'More forecasts: <a href="https://oneweather.org/new_york_city/30_days/" id="ww_4351d8b7c94a5_u" target="_blank">30 day weather forecast NYC</a>';
     weathermomie.appendChild(newweather);
     const weatherScript = document.createElement('script');
     weatherScript.async = true;
-    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_dda7bca150c4a';
+    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_4351d8b7c94a5';
     weathermomie.appendChild(weatherScript);}
     let Gallery = document.getElementById('images');
     Gallery.src = 'https://emb.fouita.com/widget/0x564608/fthgnj4pz';
