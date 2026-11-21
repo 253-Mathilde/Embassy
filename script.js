@@ -83,11 +83,34 @@ function getRandomIntWithoutZero(max) {
 }
 
 document.getElementById('gamble').addEventListener('click', function() {
-  const gamblenumber = getRandomIntWithoutZero(12);
-  console.log("Country 1:", gamblenumber);
-
+  const gamblenumber = getRandomIntWithoutZero(6);
   if (gamblenumber === 1) {
     destinationname.textContent = "New York City, USA";
+    const weathermomie = document.querySelector('.weather');
+    if (weathermomie) {
+    weathermomie.innerHTML = '';
+    const newweather = document.createElement('div');
+    newweather.id = 'ww_f76b73bb73bb5';
+    newweather.setAttribute('v', '1.3');
+    newweather.setAttribute('loc', 'id');
+    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl926"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
+    newweather.innerHTML = 'More forecasts: <a href="https://oneweather.org/ja/tokyo/10_days/" id="ww_349f9625b75a6_u" target="_blank">oneweather.org/ja/tokyo/10_days</a>';
+    weathermomie.appendChild(newweather);
+    const weatherScript = document.createElement('script');
+    weatherScript.async = true;
+    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_f76b73bb73bb5';
+    weathermomie.appendChild(weatherScript);}
+    let Gallery = document.getElementById('images');
+    Gallery.src = 'https://emb.fouita.com/widget/0x564608/fthgnj4pz';
+    let Iframe = document.getElementById('wiki');
+    let meinIframe = document.getElementById('map');
+    meinIframe.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193597.01650363376!2d-74.14431219124575!3d40.69702432158221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sde!4v1792170696170!5m2!1sen!2sde';
+    Iframe.src = 'https://de.wikipedia.org/wiki/New_York_City' ; 
+    document.querySelector('.random ul').innerHTML = `
+    <li>Founded: <strong>1624 </strong>(originally established as New Amsterdam by Dutch settlers; renamed New York in <strong>1664</strong>).</li>
+    <li>City Population: Approx.<strong> 8.5</strong> million residents (within the five boroughs).</li>
+    <li>Metro Population: Approx.<strong> 19.3</strong> to <strong>20.1</strong> million residents (including the surrounding metropolitan area).</li>
+    `;
   } 
   if (gamblenumber === 2) {
     destinationname.textContent = "Tokyo, Japan";
@@ -223,166 +246,4 @@ document.getElementById('gamble').addEventListener('click', function() {
 
       `;
   } 
-  if (gamblenumber === 7) {
-    destinationname.textContent = "London, UK";
-    const weathermomie = document.querySelector('.weather');
-    if (weathermomie) {
-    weathermomie.innerHTML = '';
-    const newweather = document.createElement('div');
-    newweather.id = 'ww_dda7bca150c4a';
-    newweather.setAttribute('v', '1.3');
-    newweather.setAttribute('loc', 'id');
-    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl4419"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
-    newweather.innerHTML = 'More forecasts: <a href="https://oneweather.org/london/21_days/" id="ww_dda7bca150c4a_u" target="_blank">London 21 day forecast</a>';
-    weathermomie.appendChild(newweather);
-    const weatherScript = document.createElement('script');
-    weatherScript.async = true;
-    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_dda7bca150c4a';
-    weathermomie.appendChild(weatherScript);}
-     let Iframe = document.getElementById('wiki');
-     let meinIframe = document.getElementById('map');
-     Iframe.src = 'https://de.wikipedia.org/wiki/London' ;
-    meinIframe.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317719.5879288566!2d-0.4312407995395432!3d51.52817976961384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20Vereinigtes%20K%C3%B6nigreich!5e0!3m2!1sde!2sde!4v1792425405640!5m2!1sde!2sde';
-     document.querySelector('.random ul').innerHTML = `
-     <li>Founded: <strong>Around 43 AD </strong>(originally built by the Romans, who called the city Londinium).</li>
-     <li>City Population: Approx.<strong> 8.9 </strong>million residents (within the Greater London boundaries).</li>
-     <li>Metro Population: Approx. <strong> 14.8 </strong>million residents (including the entire metropolitan zone).</li>
-
-      `;
-  } 
-  if (gamblenumber === 8) {
-    destinationname.textContent = "Singapore";
-    const weathermomie = document.querySelector('.weather');
-    if (weathermomie) {
-    weathermomie.innerHTML = '';
-    const newweather = document.createElement('div');
-    newweather.id = 'ww_dda7bca150c4a';
-    newweather.setAttribute('v', '1.3');
-    newweather.setAttribute('loc', 'id');
-    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl2912"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
-    newweather.innerHTML = 'More forecasts: <a href="https://oneweather.org/orlando/30_days/" id="ww_dda7bca150c4a_u" target="_blank">Orlando weather 30-day forecast</a>';
-    weathermomie.appendChild(newweather);
-    const weatherScript = document.createElement('script');
-    weatherScript.async = true;
-    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_dda7bca150c4a';
-    weathermomie.appendChild(weatherScript);}
-     let Iframe = document.getElementById('wiki');
-     let meinIframe = document.getElementById('map');
-     Iframe.src = 'https://de.wikipedia.org/wiki/Singapur';
-    meinIframe.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255281.22560152973!2d103.67943327616759!3d1.3139946153653794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da11238a8b9375%3A0x887869cf52abf5c4!2sSingapur!5e0!3m2!1sde!2sde!4v1792425359617!5m2!1sde!2sde';
-       document.querySelector('.random ul').innerHTML = `
-       <li>Founded: <strong>1819 </strong>(established as a modern trading post by Sir Stamford Raffles).</li>
-       <li>City Population: Approx. <strong>5.9 </strong>million residents (the city covers the whole main island).</li>
-       <li>Metro Population: Approx.<strong> 5.9 </strong> million residents (it is a city-state, so city and country are the same).</li>
-
-      `;
-  } 
-  if (gamblenumber === 9) {
-    destinationname.textContent = "Barcelona, Spain";
-    const weathermomie = document.querySelector('.weather');
-    if (weathermomie) {
-    weathermomie.innerHTML = '';
-    const newweather = document.createElement('div');
-    newweather.id = 'ww_dda7bca150c4a';
-    newweather.setAttribute('v', '1.3');
-    newweather.setAttribute('loc', 'id');
-    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl6603"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
-    newweather.innerHTML = 'More forecasts: <a href="https://tiempolargo.com/madrid_tiempo_25_dias/" id="ww_dda7bca150c4a_u" target="_blank">El tiempo para 25 días</a>';
-    weathermomie.appendChild(newweather);
-    const weatherScript = document.createElement('script');
-    weatherScript.async = true;
-    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_dda7bca150c4a';
-    weathermomie.appendChild(weatherScript);}
-     let Iframe = document.getElementById('wiki');
-     let meinIframe = document.getElementById('map');
-     Iframe.src = 'https://de.wikipedia.org/wiki/Barcelona' ;
-    meinIframe.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95780.66747572068!2d2.0577875417722638!3d41.39263865755944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49816718e30e5%3A0x44b0fb3d4f47660a!2sBarcelona%2C%20Provinz%20Barcelona%2C%20Spanien!5e0!3m2!1sde!2sde!4v1792425309339!5m2!1sde!2sde';
-       document.querySelector('.random ul').innerHTML = `
-       <li>Founded: <strong>Around 230 BC </strong>(founded by the Carthaginians or Romans; precise origins are still a mystery).</li>
-      <li>City Population: Approx. <strong>1.6 </strong> million residents (within the official city limits).</li>
-      <li>Metro Population: Approx. <strong>5.6 </strong>million residents (including the surrounding urban towns).</li>
-
-      `;
-  } 
-  if (gamblenumber === 10) {
-    destinationname.textContent = "Sydney, Australia";
-    const weathermomie = document.querySelector('.weather');
-    if (weathermomie) {
-    weathermomie.innerHTML = '';
-    const newweather = document.createElement('div');
-    newweather.id = 'ww_dda7bca150c4a';
-    newweather.setAttribute('v', '1.3');
-    newweather.setAttribute('loc', 'id');
-    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl2859"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
-    newweather.innerHTML = 'More forecasts: <a href="https://oneweather.org/sydney/30_days/" id="ww_dda7bca150c4a_u" target="_blank">Weather 30 days Sydney</a>';
-    weathermomie.appendChild(newweather);
-    const weatherScript = document.createElement('script');
-    weatherScript.async = true;
-    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_dda7bca150c4a';
-    weathermomie.appendChild(weatherScript);}
-     let Iframe = document.getElementById('wiki');
-     let meinIframe = document.getElementById('map');
-     Iframe.src = 'https://de.wikipedia.org/wiki/Sydney' ;
-    meinIframe.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424143.87597738684!2d150.6023129089541!3d-33.84780523242299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney%20New%20South%20Wales%2C%20Australien!5e0!3m2!1sde!2sde!4v1792425225693!5m2!1sde!2sde';
-       document.querySelector('.random ul').innerHTML = `
-       <li>Founded: <strong>1788 </strong>(established by British settlers as the very first penal colony in Australia).</li>
-       <li>City Population: Approx. <strong>5.3 </strong> million residents (within the greater metropolitan area).</li>
-       <li>Metro Population: Approx. <strong>5.3 </strong> million residents (most people count the city and metro as one area).</li>
-
-      `;
-  } 
-  if (gamblenumber === 11) {
-    destinationname.textContent = "Istanbul, Turkey";
-    const weathermomie = document.querySelector('.weather');
-    if (weathermomie) {
-    weathermomie.innerHTML = '';
-    const newweather = document.createElement('div');
-    newweather.id = 'ww_dda7bca150c4a';
-    newweather.setAttribute('v', '1.3');
-    newweather.setAttribute('loc', 'id');
-    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl3197"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
-    newweather.innerHTML = 'More forecasts: <a href="https://oneweather.org/tr/ankara/15_days/" id="ww_dda7bca150c4a_u" target="_blank">Ankara 15 günlük hava durumu</a>';
-    weathermomie.appendChild(newweather);
-    const weatherScript = document.createElement('script');
-    weatherScript.async = true;
-    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_dda7bca150c4a';
-    weathermomie.appendChild(weatherScript);}
-     let Iframe = document.getElementById('wiki');
-     let meinIframe = document.getElementById('map');
-     Iframe.src = 'https://de.wikipedia.org/wiki/Istanbul' ;
-    meinIframe.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d385399.3521503719!2d28.68252483322128!3d41.0048519285292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2sIstanbul%2C%20T%C3%BCrkei!5e0!3m2!1sde!2sde!4v1792425159085!5m2!1sde!2sde';
-       document.querySelector('.random ul').innerHTML = `
-       <li>Founded: <strong>Around 660 BC </strong>(originally named Byzantium, later Constantinople, and officially renamed Istanbul in 1930).</li>
-     <li>City Population: Approx. <strong> 15.8 </strong>million residents (living on both the European and Asian sides).</li>
-     <li>Metro Population: Approx. <strong>15.8 </strong>million residents (the city bounds cover the whole province).</li>
-
-      `;
-  } 
-  if (gamblenumber === 12) {
-    destinationname.textContent = "Bangkok, Thailand";
-    const weathermomie = document.querySelector('.weather');
-    if (weathermomie) {
-    weathermomie.innerHTML = '';
-    const newweather = document.createElement('div');
-    newweather.id = 'ww_dda7bca150c4a';
-    newweather.setAttribute('v', '1.3');
-    newweather.setAttribute('loc', 'id');
-    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl1812"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
-    newweather.innerHTML = 'More forecasts: <a href="https://weatherwidget.org/" id="ww_dda7bca150c4a_u" target="_blank">Weather widget</a>';
-    weathermomie.appendChild(newweather);
-    const weatherScript = document.createElement('script');
-    weatherScript.async = true;
-    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_dda7bca150c4a';
-    weathermomie.appendChild(weatherScript);}
-     let Iframe = document.getElementById('wiki');
-     let meinIframe = document.getElementById('map');
-     Iframe.src = 'https://de.wikipedia.org/wiki/Bangkok' ;
-     meinIframe.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d496115.45963439683!2d100.30343537066993!3d13.72438094764288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d6032280d61f3%3A0x10100b25de24820!2sBangkok%2C%20Thailand!5e0!3m2!1sde!2sde!4v1792425094100!5m2!1sde!2sde';
-    document.querySelector('.random ul').innerHTML = `<li>Founded: <strong>1782 </strong>(established as the new capital city of Thailand by King Rama I).</li>
-    <li>City Population: Approx. 8.3 million residents (within the official capital district).</li>
-    <li>Metro Population: Approx. 14.6 million residents (including the surrounding provinces).</li>
-
-      `;
-  } 
-  
 });
