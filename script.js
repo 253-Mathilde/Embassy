@@ -90,15 +90,15 @@ document.getElementById('gamble').addEventListener('click', function() {
    if (weathermomie) {
     weathermomie.innerHTML = '';
     const newweather = document.createElement('div');
-    newweather.id = 'ww_newyork00005';
+    newweather.id = 'ww_0e8283ebe9e1a';
     newweather.setAttribute('v', '1.3');
     newweather.setAttribute('loc', 'id');
-    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["DEINE_NEW_YORK_ID"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
-    newweather.innerHTML = 'More forecasts: <a href="https://weatherwidget.org/" id="ww_newyork00005_u" target="_blank">New York weather forecast</a>';
+    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl712"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
+    newweather.innerHTML = 'More forecasts: <a href="https://oneweather.org/new_york_city/30_days/" id="ww_0e8283ebe9e1a_u" target="_blank">New York weather forecast 30 days</a>';
     weathermomie.appendChild(newweather);
     const weatherScript = document.createElement('script');
     weatherScript.async = true;
-    weatherScript.src = 'https://weatherwidget.org';
+    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_0e8283ebe9e1a';
     weathermomie.appendChild(weatherScript);}
     let Gallery = document.getElementById('images');
     Gallery.src = 'https://emb.fouita.com/widget/0x564608/fthgnj4pz';
@@ -118,15 +118,15 @@ document.getElementById('gamble').addEventListener('click', function() {
     if (weathermomie) {
     weathermomie.innerHTML = '';
     const newweather = document.createElement('div');
-    newweather.id = 'ww_tokyo0000004';
+    newweather.id = 'ww_349f9625b75a6';
     newweather.setAttribute('v', '1.3');
     newweather.setAttribute('loc', 'id');
-    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["DEINE_TOKYO_ID"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
-    newweather.innerHTML = 'More forecasts: <a href="https://weatherwidget.org/" id="ww_tokyo0000004_u" target="_blank">Tokyo weather forecast</a>';
+    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl926"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"rgba(255,182,193,1)","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
+    newweather.innerHTML = 'More forecasts: <a href="https://oneweather.org/ja/tokyo/10_days/" id="ww_349f9625b75a6_u" target="_blank">oneweather.org/ja/tokyo/10_days</a>';
     weathermomie.appendChild(newweather);
     const weatherScript = document.createElement('script');
     weatherScript.async = true;
-    weatherScript.src = 'https://weatherwidget.org';
+    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_349f9625b75a6';
     weathermomie.appendChild(weatherScript);}
     let Gallery = document.getElementById('images');
     Gallery.src = 'https://emb.fouita.com/widget/0x5734b0/ftcgx3o5y';
@@ -174,15 +174,15 @@ document.getElementById('gamble').addEventListener('click', function() {
     if (weathermomie) {
     weathermomie.innerHTML = '';
     const newweather = document.createElement('div');
-    newweather.id = 'ww_capetown0001';
+    newweather.id = 'ww_8f71eab8e34f1';
     newweather.setAttribute('v', '1.3');
     newweather.setAttribute('loc', 'id');
-    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["DEINE_CAPE_TOWN_ID"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
-    newweather.innerHTML = 'More forecasts: <a href="https://weatherwidget.org/" id="ww_capetown0001_u" target="_blank">Cape Town weather forecast</a>';
+    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl3740"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
+    newweather.innerHTML = '<a href="https://weatherwidget.org/" id="ww_8f71eab8e34f1_u" target="_blank">Free weather widget</a>';
     weathermomie.appendChild(newweather);
     const weatherScript = document.createElement('script');
     weatherScript.async = true;
-    weatherScript.src = 'https://weatherwidget.org';
+    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_8f71eab8e34f1';
     weathermomie.appendChild(weatherScript);}
     let Iframe = document.getElementById('wiki');
      let meinIframe = document.getElementById('map');
@@ -202,15 +202,15 @@ document.getElementById('gamble').addEventListener('click', function() {
     if (weathermomie) {
     weathermomie.innerHTML = '';
     const newweather = document.createElement('div');
-    newweather.id = 'ww_rome00000002';
+    newweather.id = 'ww_9db8adef5cb7c';
     newweather.setAttribute('v', '1.3');
     newweather.setAttribute('loc', 'id');
-    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["DEINE_ROME_ID"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
-    newweather.innerHTML = 'More forecasts: <a href="https://weatherwidget.org/" id="ww_rome00000002_u" target="_blank">Rome weather forecast</a>';
+    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl2405"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
+    newweather.innerHTML = 'More forecasts: <a href="https://oneweather.org/it/rome/10_days/" id="ww_9db8adef5cb7c_u" target="_blank">Meteo 10 giorni roma</a>';
     weathermomie.appendChild(newweather);
     const weatherScript = document.createElement('script');
     weatherScript.async = true;
-    weatherScript.src = 'https://weatherwidget.org';
+    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_9db8adef5cb7c';
     weathermomie.appendChild(weatherScript);}
     let Gallery = document.getElementById('images');
     Gallery.src = 'https://emb.fouita.com/widget/0x574cb4/ftv3krgp8l';
@@ -231,15 +231,15 @@ document.getElementById('gamble').addEventListener('click', function() {
     if (weathermomie) {
     weathermomie.innerHTML = '';
     const newweather = document.createElement('div');
-    newweather.id = 'ww_riodejaneiro3';
+    newweather.id = 'ww_f8c5af0fc5180';
     newweather.setAttribute('v', '1.3');
     newweather.setAttribute('loc', 'id');
-    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["DEINE_RIO_ID"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
-    newweather.innerHTML = 'More forecasts: <a href="https://weatherwidget.org/" id="ww_riodejaneiro3_u" target="_blank">Rio de Janeiro weather forecast</a>';
+    newweather.setAttribute('a', '{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl4478"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"lightpink","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}');
+    newweather.innerHTML = 'More forecasts: <a href="https://tempolongo.com/rio_de_janeiro_tempo_25_dias/" id="ww_f8c5af0fc5180_u" target="_blank">Rio de Janeiro 30 day forecast</a>';
     weathermomie.appendChild(newweather);
     const weatherScript = document.createElement('script');
     weatherScript.async = true;
-    weatherScript.src = 'https://weatherwidget.org';
+    weatherScript.src = 'https://app3.weatherwidget.org/js/?id=ww_f8c5af0fc5180';
     weathermomie.appendChild(weatherScript);}
      let Iframe = document.getElementById('wiki');
      let meinIframe = document.getElementById('map');
