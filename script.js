@@ -158,6 +158,8 @@ document.getElementById('gamble').addEventListener('click', function() {
     weathermomie.appendChild(weatherScript);}
     let Iframe = document.getElementById('wiki');
     let meinIframe = document.getElementById('map');
+    let Gallery = document.getElementById('images');
+    Gallery.src = 'https://emb.fouita.com/widget/0x574c90/ftby7bzqr'; 
     Iframe.src = 'https://de.wikipedia.org/wiki/Paris';
     meinIframe.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.96769581197!2d2.264633101823044!3d48.85882554171904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C%20Frankreich!5e0!3m2!1sde!2sde!4v1792425693173!5m2!1sde!2sde';
     document.querySelector('.random ul').innerHTML = `
@@ -185,6 +187,8 @@ document.getElementById('gamble').addEventListener('click', function() {
     let Iframe = document.getElementById('wiki');
      let meinIframe = document.getElementById('map');
      Iframe.src = 'https://de.wikipedia.org/wiki/Kapstadt';
+    let Gallery = document.getElementById('images');
+    Gallery.src = 'https://emb.fouita.com/widget/0x574ca4/ftpmx0jznh'; 
     meinIframe.src = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d847632.10202523!2d17.996591362382823!3d-33.91378071167657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc500f8826eed7%3A0x687fe1fc2828aa87!2sKapstadt%2C%20S%C3%BCdafrika!5e0!3m2!1sde!2sde!4v1792425628983!5m2!1sde!2sde';
     document.querySelector('.random ul').innerHTML = `
     <li>Founded: <strong>1652 </strong>(established by the Dutch East India Company as a supply station for ships).</li>
@@ -209,7 +213,7 @@ document.getElementById('gamble').addEventListener('click', function() {
     weatherScript.src = '';
     weathermomie.appendChild(weatherScript);}
     let Gallery = document.getElementById('images');
-    Gallery.src = 'https://emb.fouita.com/widget/0x574cc3/ftfhv73yo';
+    Gallery.src = 'https://emb.fouita.com/widget/0x574cb4/ftv3krgp8l';
      let Iframe = document.getElementById('wiki');
      let meinIframe = document.getElementById('map');
      Iframe.src = 'https://de.wikipedia.org/wiki/Rom' ;
