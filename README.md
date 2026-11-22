@@ -1,18 +1,35 @@
 
 <img width="1920" height="480" alt="Von NASA - http___nssdc gsfc nasa gov_imgcat_html_object_page_nea_19970627_mos html, Gemeinfrei, https___commons wikimedia org_w_index php_curid=1572919" src="https://github.com/user-attachments/assets/8ba79044-f2ce-48ae-a064-38df21feb661" />
 
+<br>
+<br>
+Gamble a location is a website where you get a random city per click. <br>
+You just click on the button and then watch what you'll get! 
+<br>
+<br>
 
-## https://253-mathilde.github.io/Embassy/ 
+<img width="1920" height="480" alt="Embassy link" src="https://github.com/user-attachments/assets/0d6e1d0c-c73f-4785-bd78-f3d5ffba1e64" />
+<br>
+<br>
 
+## ↪ https://253-mathilde.github.io/Embassy/ ↩ 
+<br>
+<br>
 
+<img width="1920" height="480" alt="Embassy coding" src="https://github.com/user-attachments/assets/2ef0272a-deb8-40c1-832e-8f0ebad1027a" />
+<br>
+<br>
 https://codepen.io/rafaelcastrocouto/pen/RNKQQpY
 https://sadthemes.tumblr.com/smolpxl
 https://uiverse.io/zjssun/curly-seahorse-76
 https://ishimori.crd.co/#fonts
 https://scripted.neocities.org/images
 https://weatherwidget.org/
-
-
+<br>
+<br>
+<img width="1920" height="480" alt="Embassy img" src="https://github.com/user-attachments/assets/53dc549f-1d59-46cd-b163-142715ad86c3" />
+<br>
+<br>
 New York images :
 Foto von <a href="https://unsplash.com/de/@lucabravo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Luca Bravo</a> auf <a href="https://unsplash.com/de/fotos/panoramafotografie-der-brooklyn-bridge-_QdFx92MO2U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
