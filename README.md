@@ -4,7 +4,11 @@
 <br>
 <br>
 Gamble a location is a website where you get a random city per click. <br>
-You just click on the button and then watch what you'll get! 
+You just click on the button and then watch what you'll get! <br>
+You can see the weather at that location at the moment,the location on a map,some informations about it,images of the location,the wikipedia entry of the location and you can make yourself a travel wishlist.<br>
+The travel wishlist stores in local storage and you can add and delete stuff as you like.<br>
+This site also has a moving plane at the top of it,a custom cursor a button animation and an animated bubble (it is supposed to look like an fortune teller ball).<br>
+
 <br>
 <br>
 
@@ -13,24 +17,33 @@ You just click on the button and then watch what you'll get!
 <br>
 
 ## ↪ https://253-mathilde.github.io/Embassy/ ↩ 
+
+<br>
+<br>
+<em>Please notice that this site is NOT responsive which means it might look a little bit strange on your device. That doens't make an impact to it's function!!</em>
 <br>
 <br>
 
 <img width="1920" height="480" alt="Embassy coding" src="https://github.com/user-attachments/assets/2ef0272a-deb8-40c1-832e-8f0ebad1027a" />
 <br>
 <br>
-https://codepen.io/rafaelcastrocouto/pen/RNKQQpY
-https://sadthemes.tumblr.com/smolpxl
-https://uiverse.io/zjssun/curly-seahorse-76
-https://ishimori.crd.co/#fonts
-https://scripted.neocities.org/images
-https://weatherwidget.org/
+
+I did use coding resources for this project (no AI in coding but little help from google to write the short texts,no prompting only googeling).<br>
+I know the code is kinda messy sometimes but that is due too the fact that I coded from my phone,laptop 1,laptop 2 and my PC.<br>
+https://codepen.io/rafaelcastrocouto/pen/RNKQQpY <br>
+https://sadthemes.tumblr.com/smolpxl <br>
+https://uiverse.io/zjssun/curly-seahorse-76<b>
+https://ishimori.crd.co/#fonts <br>
+https://scripted.neocities.org/images <br>
+https://weatherwidget.org/ <br>
 <br>
 <br>
 <img width="1920" height="480" alt="Embassy img" src="https://github.com/user-attachments/assets/53dc549f-1d59-46cd-b163-142715ad86c3" />
 <br>
 <br>
-New York images :
+
+<details>
+<summary>New York images </summary>
 Foto von <a href="https://unsplash.com/de/@lucabravo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Luca Bravo</a> auf <a href="https://unsplash.com/de/fotos/panoramafotografie-der-brooklyn-bridge-_QdFx92MO2U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Foto von <a href="https://unsplash.com/de/@robertbye?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Robert Bye</a> auf <a href="https://unsplash.com/de/fotos/gelbes-auto-das-tagsuber-auf-der-strasse-zwischen-dem-gebaude-fahrt-WTPp4wgourk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -44,13 +57,14 @@ Foto von <a href="https://unsplash.com/de/@yileijerrybao?utm_source=unsplash&utm
 
 
 Foto von <a href="https://unsplash.com/de/@lucabravo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Luca Bravo</a> auf <a href="https://unsplash.com/de/fotos/time-square-new-york-tagsuber-TaCk3NspYe0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</details>
 
 
 
 
 
 
-Tokyo images:
+<details><summary>Tokyo images</summary>
 
 Image by <a href="https://pixabay.com/users/anthr_photoblog-13017730/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4336403">ANTHR_Photoblog</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4336403">Pixabay</a>
 
@@ -75,6 +89,7 @@ Image by <a href="https://pixabay.com/users/takatoshikun-7007325/?utm_source=lin
 Image by <a href="https://pixabay.com/users/angel4leon-560486/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4013068">angel4leon</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4013068">Pixabay</a>
 
 
+</details>
 
 
 
@@ -86,8 +101,8 @@ Image by <a href="https://pixabay.com/users/angel4leon-560486/?utm_source=link-a
 
 
 
+<details><summary>Paris Images</summary>
 
-Paris Images:
 
 Image by <a href="https://pixabay.com/users/chiemseherin-1425977/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9641907">ChiemSeherin</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9641907">Pixabay</a>
 
@@ -107,12 +122,12 @@ Image by <a href="https://pixabay.com/users/hikersbay-95996/?utm_source=link-att
 
 Image by <a href="https://pixabay.com/users/marcinzlegnicy-6586394/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2822265">marcinzlegnicy</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2822265">Pixabay</a>
 
+</details>
 
 
 
+<details><summary>Cape Town images</summary>
 
-
-Cape Town images:
 
 
 Image by <a href="https://pixabay.com/users/jeanvdmeulen-919322/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3541607">jeanvdmeulen</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3541607">Pixabay</a>
@@ -131,10 +146,10 @@ Image by <a href="https://pixabay.com/users/falco-81448/?utm_source=link-attribu
 
 
 Image by <a href="https://pixabay.com/users/wikiimages-1897/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=67669">WikiImages</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=67669">Pixabay</a>
+</details>
 
+<details><summary>Rome images</summary>
 
-
-Rome images:
 
 Image by <a href="https://pixabay.com/users/martinophuc-13713779/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9505450">MARTINOPHUC</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9505450">Pixabay</a>
 
@@ -149,12 +164,12 @@ Image by <a href="https://pixabay.com/users/jansimons-20088882/?utm_source=link-
 
 
 Image by <a href="https://pixabay.com/users/tasos_lekkas-4803779/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3638146">Tasos_Lekkas</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3638146">Pixabay</a>
+</details>
 
 
 
+<details><summary>Rio de Janeioro</summary>
 
-
-Rio :
 
 Image by <a href="https://pixabay.com/users/heibe-1753551/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1303951">heibe</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1303951">Pixabay</a>
 
@@ -168,5 +183,5 @@ Image by <a href="https://pixabay.com/users/poswiecie-461975/?utm_source=link-at
 Image by <a href="https://pixabay.com/users/pat_photographies-298457/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5027756">Pat_Photographies</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5027756">Pixabay</a>
 
 Image by <a href="https://pixabay.com/users/poswiecie-461975/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=809755">Poswiecie</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=809755">Pixabay</a>
-
+</details>
 
