@@ -32,7 +32,7 @@ I did use coding resources for this project (no AI in coding but little help fro
 I know the code is kinda messy sometimes but that is due too the fact that I coded from my phone,laptop 1,laptop 2 and my PC.<br>
 https://codepen.io/rafaelcastrocouto/pen/RNKQQpY <br>
 https://sadthemes.tumblr.com/smolpxl <br>
-https://uiverse.io/zjssun/curly-seahorse-76<b>
+https://uiverse.io/zjssun/curly-seahorse-76<br>
 https://ishimori.crd.co/#fonts <br>
 https://scripted.neocities.org/images <br>
 https://weatherwidget.org/ <br>
