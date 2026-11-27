@@ -32,7 +32,7 @@ I did use coding resources for this project (no AI in coding but little help fro
 I know the code is kinda messy sometimes but that is due too the fact that I coded from my phone,laptop 1,laptop 2 and my PC.<br>
 <a href="https://codepen.io/rafaelcastrocouto/pen/RNKQQpY">The base for the bubble</a><br>
 <a href="https://sadthemes.tumblr.com/smolpxl">For all the little gifs (for example the pin in the bubble)</a><br>
-<a href="https://uiverse.io/zjssun/curly-seahorse-76"> </a><br>
+<a href="https://uiverse.io/zjssun/curly-seahorse-76">The button hover effect</a><br>
 <a href="https://ishimori.crd.co/#fonts">For the top font</a><br>
 <a href="https://scripted.neocities.org/images">For frames and stuff</a><br>
 <a href="https://weatherwidget.org/"> For the weather widget base</a><br>
