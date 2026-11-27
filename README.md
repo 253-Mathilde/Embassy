@@ -37,6 +37,9 @@ https://ishimori.crd.co/#fonts <br>
 https://scripted.neocities.org/images <br>
 https://weatherwidget.org/ <br>
 https://cssgridgenerator.io/ <br>
+https://fouita.com/ <br>
+https://medium.com/@francesco-saviano/how-to-create-a-book-wishlist-app-with-html-css-and-javascript-dfae6c88dabd <br>
+
 <br>
 <br>
 <img width="1920" height="480" alt="Embassy img" src="https://github.com/user-attachments/assets/53dc549f-1d59-46cd-b163-142715ad86c3" />
