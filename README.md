@@ -30,15 +30,27 @@ This site also has a moving plane at the top of it,a custom cursor a button anim
 
 I did use coding resources for this project (no AI in coding but little help from google to write the short texts,no prompting only googeling).<br>
 I know the code is kinda messy sometimes but that is due too the fact that I coded from my phone,laptop 1,laptop 2 and my PC.<br>
-https://codepen.io/rafaelcastrocouto/pen/RNKQQpY <br>
-https://sadthemes.tumblr.com/smolpxl <br>
-https://uiverse.io/zjssun/curly-seahorse-76<br>
-https://ishimori.crd.co/#fonts <br>
-https://scripted.neocities.org/images <br>
-https://weatherwidget.org/ <br>
-https://cssgridgenerator.io/ <br>
-https://fouita.com/ <br>
-https://medium.com/@francesco-saviano/how-to-create-a-book-wishlist-app-with-html-css-and-javascript-dfae6c88dabd <br>
+<a href="https://codepen.io/rafaelcastrocouto/pen/RNKQQpY">The base for the bubble</a><br>
+<a href="https://sadthemes.tumblr.com/smolpxl">For all the little gifs (for example the pin in the bubble)</a><br>
+<a href="https://uiverse.io/zjssun/curly-seahorse-76"> </a><br>
+<a href="https://ishimori.crd.co/#fonts">For the top font</a><br>
+<a href="https://scripted.neocities.org/images">For frames and stuff</a><br>
+<a href="https://weatherwidget.org/"> For the weather widget base</a><br>
+<a href="https://cssgridgenerator.io/">For the grid</a><br>
+<a href="https://fouita.com/">For the gallery</a><br>
+<a href="https://medium.com/@francesco-saviano/how-to-create-a-book-wishlist-app-with-html-css-and-javascript-dfae6c88dabd">For the function of the wishlist base</a><br>
+<br>
+
+List of Locations you could get:
+
+| City  | Country |
+| ------------- | ------------- |
+| New York City  | USA  |
+| Tokyo  | Japan |
+| Paris | France |
+| Cape Town  | South Africa |
+| Rome  | Italy |
+| Rio de Janeiro  | Brazil|
 
 <br>
 <br>
